@@ -1,0 +1,108 @@
+@charset "UTF-8";
+#main{
+	width:1100px;
+	padding: 0 250px 0 250px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:240px;
+}
+#top{
+	width:1050px;
+	height:50px;
+	padding:0 25px 25px 25px;
+	border:1px solid lightgray;
+	border-top-width:0;
+	border-left-width:0;
+	border-right-width:0;	
+}
+#gotomain{
+	width:165px;
+	height:50px;
+	font-size:13px;
+	background:white;
+	border:1px solid black;
+}
+#gotosell{
+	width:165px;
+	height:50px;
+	font-size:13px;
+	background:white;
+	border:1px solid black;
+	float:right;
+	display:none;
+}
+#gotomain:hover{
+	background:#F8F8F8;
+}
+
+.top1{
+	width:192px;
+	height:127px;
+	text-align:center;
+	font-size:13px;
+}
+.top2{
+	width:500px;
+	height:127px;
+	text-align:center;
+	font-size:13px;
+}
+.top3{
+	width:192px;
+	height:127px;
+	text-align:center;
+	font-size:13px;
+}
+.top4{
+	width:192px;
+	height:127px;
+	text-align:center;
+	font-size:13px;
+}
+
+
+.eachorder{
+	border-bottom:1px solid lightgray;
+	border-top:1px solid lightgray;
+}
+
+
+.detail{
+	width:1100px;
+	height:127px;
+	padding:30px 0;
+	border:1px solid lightgray;
+	border-top-width:0;
+	border-left-width:0;
+	border-right-width:0;
+	display:none;
+}
+.list0{
+	width:150px;
+	text-align:center;
+	font-size:30px
+}
+.list1{
+	width:192px;
+	height:127px;
+	text-align:center;	
+}
+
+.list1>img{
+	width:100px;
+	height:100px;
+}
+.list2{
+	width:125px;
+	height:127px;
+	margin-right:40px;
+	padding-left:50px;
+	font-size:13px;
+}
+.list3{
+	width:100px;
+	height:107px;
+	padding:10px 10px 10px 50px;
+	font-size:20px;
+	font-weight:700;
+}

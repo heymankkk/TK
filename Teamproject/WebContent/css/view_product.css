@@ -1,0 +1,267 @@
+@charset "UTF-8";
+	a{text-decoration:none; color:black;}
+	a:visited{color:black}
+	#main{
+		width:1200px;
+		height:800px;
+		padding: 0 200px 0 200px;
+		margin-right:auto;
+		margin-left:auto;
+		margin-top:240px;
+	}
+	#image_container{
+		float:left;
+		width:600px;
+		height:600px;
+	}
+	#image_main{
+		width:500px;
+		height:500px;
+		padding: 0 50px 50px 50px;
+	}
+	#image_main>img{
+		width:500px;
+	}
+	#image_add>img{
+		width:138px;
+		height:138px;
+		border:1px solid lightgray;
+	}
+	#item_container{
+		float:right;
+		font-size:13px;
+		width:460px;
+		height:690px;
+		padding:0 80px 0px 60px
+	}
+	#itemname{
+		font-size:24px;
+		font-weight:900;
+		font-family: 'Biryani', sans-serif;
+		height:37px;
+	}
+	#category2{
+		padding-left:2px;
+	}
+	#itemprice{
+		font-size:55px;
+		font-weight:900;
+		padding-left:5px;
+		font-family: 'Biryani', sans-serif;
+		height:90px;
+	}
+	#item_container>small{
+		color:darkgray;
+	}
+	#itemno{
+		font-size:12px;
+	}
+	#item_score{
+		margin:12px 0;
+		font-size:12px;
+	}
+	#item_score>img{
+		width:120px;
+	}
+	#product_size{
+		margin:12px 0;
+		font-size:13px;
+	}
+	#itemoption1>button{
+		border:1px solid darkgray;
+		background-color: Transparent;
+		width:460px;
+		height:48px;
+		padding:0 15px;
+		text-align:left;
+	}
+	.itemoption11{
+		padding:0;
+		margin:0;
+		display:none;
+	}
+	.itemoption22{
+		padding:0;
+		margin:0;
+		display:none;
+	}
+	#itemoption2{
+		margin-top:10px;
+	}
+	#itemoption1 li{
+		list-style-type:none;
+		border:1px solid darkgray;
+		border-top-width:0px;
+		width:458px;
+		height:48px;
+	}
+	.opimg>img{
+		margin:5px 5px 5px 17px;
+		width:40px;
+		height:40px;
+	}
+	.itemoption11 div{
+		display:inline-block;
+		margin:5px 5px 5px 10px;
+		width:375px;
+		height:40px;
+		line-height:37px;
+		position:absolute;
+	}
+	.itemoption22 div{
+		display:inline-block;
+		margin:5px 5px 5px 10px;
+		width:375px;
+		height:40px;
+		line-height:37px;
+		position:absolute;
+	}
+	#itemoption2>button{
+		border:1px solid darkgray;
+		background-color: Transparent;
+		width:460px;
+		height:48px;
+		padding:0 15px;
+		text-align:left;
+	}
+	#itemoption2 li{
+		list-style-type:none;
+		border:1px solid darkgray;
+		border-top-width:0px;
+		width:458px;
+		height:48px;
+	}
+	#product_count{
+		margin-top:10px;
+	}
+	#product_count>span{
+		font-size:15px;
+		height:39px;
+		line-height:40px;
+		padding-left:77px;
+	}
+	#product_count>input{
+		text-align:right;
+		width:92px;
+		height:39px;
+		font-weight:700;
+		float:right;
+		padding-right:8px;
+	}
+	#product_buy{
+		margin:18px 0 0 0;
+		padding:0;
+		width:460px;
+		height:45px;
+	}
+	#product_buy>img{
+		margin:0;
+		padding:0;
+		display:inline-block;
+	}
+	#product_buy>div{
+		background:#155DA6;
+		display:inline-block;
+		float:right;
+		margin:0;
+		padding:0;
+		width:410px;
+		height:45px;
+		line-height:39px;
+		text-align:center;
+		font-size:17px;
+		color:white;
+		font-weight:800;
+	}
+	#product_buy>div:hover{
+		cursor:pointer;
+	}
+	#product_wish{
+		display:inline-block;
+		float:left;
+		margin:0;
+		padding:0 3px 0 0;
+		width:220px;
+		height:45px;
+	}
+	#product_wish>img{
+		margin:0;
+		padding:0;
+		display:inline-block;
+		float:left;
+	}
+	#product_wish>div{
+		background:#D4D4D4;
+		display:inline-block;
+		float:left;
+		margin:0;
+		padding:0;
+		width:160px;
+		height:45px;
+		line-height:45px;
+		text-align:center;
+		font-size:14px;
+		color:gray;
+	}
+	#product_wish>div{
+		cursor:pointer;
+	}
+	#product_add{
+		background:#F0F5F8;
+		width:460px;
+		height:140px;
+		margin-top:12px;
+	}
+	#product_add>p{
+		display:inline-block;
+		width:430px;
+		margin:15px;
+		padding:0;
+		border:1px solid lightgray;
+		border-top-width:0px;
+		border-left-width:0px;
+		border-right-width:0px;
+	}
+	#product_add>b{
+		margin:27px 0 0 15px;
+		display:inline-block;
+		width:100px;
+		font-size:20px;
+		font-family: 'Biryani', sans-serif;
+		line-height:20px;
+	}
+	#product_add>input{
+		display:inline-block;
+		float:right;
+		text-align:right;
+		font-size:55px;
+		height:50px;
+		font-family: 'Biryani', sans-serif;
+		margin-right:15px;
+		width:330px;
+		border:0;
+		background:transparent;
+		padding-top:8px;
+	}
+	#product_add img{
+		margin:0;
+		padding:16px 0 0 0;
+		display:inline-block;
+	}
+	#product_add span{
+		display:inline-block;
+		background:#155DA6;
+		margin:16px 0 0 0;
+		float:right;
+		position:absolute;
+		width:410px;
+		height:45px;
+		line-height:39px;
+		text-align:center;
+		font-size:17px;
+		color:white;
+		font-weight:800;
+	}
+	#product_add span{
+		cursor:pointer;
+	}

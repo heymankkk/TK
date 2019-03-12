@@ -1,0 +1,67 @@
+@charset "UTF-8";
+#loginfooter{
+	position:relative;
+	top:250px;
+	margin:0 auto;
+	z-index:-5;
+}
+#zindex{
+	width:1600px;
+	height:100%;
+	margin:0 auto;
+}
+
+body{
+	margin:0 auto;
+}
+
+#all>table{
+	width:890px;
+	font-size:14px;
+	margin:0 auto;
+	height:700px;
+	position:relative;
+	top:200px;
+}
+
+#all a{
+	text-decoration:none;
+	color:#3399FD;
+	font-size:12px;
+}
+
+#mo{
+	border-bottom:2px solid black;
+	font-weight:bold;
+}
+
+#imo{
+	background-color:#F6F6F6;
+	text-align:center;
+	font-weight:700;
+}
+
+#outmember{
+	border-top:2px solid #F6F6F6;
+}
+#abc{
+	border-top:2px solid black;
+	background-color:#F6F6F6;
+	text-align:center;
+	font-weight:700;
+}
+#event tr>td{
+	height:34px;
+}
+#event tr>td:nth-child(1){
+	width:276px;
+	height:34px;
+}
+#event>table{
+	padding-top:20px;
+	width:878px;
+	font-size:14px;
+	margin:0 auto;
+	position:relative;
+	top:200px;
+}

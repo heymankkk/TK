@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+body{
+	margin:0 auto;
+}
+
+#all{
+    border: 1px solid #DDDDDD;
+    width: 905px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    background-color: #F4F4F4;
+}
+
+#top{
+	font-weight:600;
+	font-size:13px;
+	padding:10px;
+}
+
+#mid{
+	font-size: 18px;
+	font-weight:700;
+    padding-top: 10px;
+    padding-left: 31px;
+}
+
+#selectShop{
+	font-size:11px;
+	position:relative;
+	top:100px;
+	left:100px;
+}
+
+#selectShop>select{
+	width:311px;
+}
+
+hr{
+	width:95%;
+	position: relative;
+    top: 48px;
+}
+
+#saveNback {
+    position: relative;
+    left: 742px;
+    top: 67px;
+
+}
+
+#back{
+	border-radius:3px;
+	background-color:#D2D2D2;
+	color:#232323;
+}
+
+#save{
+	border-radius:3px;
+	background-color:#D2D2D2;
+	color:#232323;
+}

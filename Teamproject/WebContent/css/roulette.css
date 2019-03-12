@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/*  */
+p{
+	margin:0;
+}
+#main{
+	background:url("../img/z_mainroulette.jpg") no-repeat;
+	background-size:100%;
+	width:743px;
+	height:945px;
+	margin:0 auto;
+}
+#roulette{
+	position:relative;
+	top:332px;
+	left:136px;
+	background:url("../img/z_roulette.png") no-repeat;
+	background-size:100%;
+	width:472px;
+	height:472px
+}
+#this{
+	background:url("../img/z_pointer.png") no-repeat;
+	background-size:100%;
+	position:relative;
+	top:-180px;
+	left:341px;
+	width:62px;
+	height:92px;
+}
+#start{
+	position:relative;
+	background:transparent;
+	border:0;
+	top:191px;
+	left:190px;
+	width:90px;
+	height:90px;
+}

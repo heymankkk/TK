@@ -1,0 +1,389 @@
+.whole{
+	width:1880px;
+	height:3600px;
+
+}
+.Header{
+	width:100%;
+	height:200px;
+}
+.content{
+	position:absolute;
+	top:250px;
+	width:1200px;
+	height:2000px;
+	left:400px;
+}
+.info{
+	position:relative;
+	height:500px;
+}
+.itemimg{
+	position:relative;
+	width:450px;
+	height:450px;
+	margin:0;
+	float:left;
+}
+.itemimg img{
+	width:450px;
+	height:450px;
+	margin:0;
+}
+.itemcontent{
+	position:relative;
+	width:480px;
+	height:600px;
+	left:50px;
+	float:left;
+}
+.desc1{
+	font-size:24pt;
+	font-family:Times New Roman;
+}
+.desc2{
+	font-size:24pt;
+}
+.desc3{
+	margin-top:15px;
+	font-size:12pt;
+	font-family:Times New Roman;
+}
+.sizeColor{
+	margin-top:15px;
+	font-family:Times New Roman;
+}
+
+.selectoption{
+	margin-top:10px;
+	width:150px;
+	height:30px;
+}
+
+.Quantity{
+	position:relative;
+	margin-top:15px;
+	height:40px;
+}
+
+.Qname{
+	width:60px;
+	position:relative;
+	float:left;
+	margin:0;
+}
+.Q{
+	width:25px;
+	font-size:13pt;
+}
+
+.QQ{
+	float:right;
+	position:relative;
+	width:20px;
+	right:9px;
+}
+.buybutton{
+	width:100%;
+}
+
+#dbuy{
+	width:100%;
+	color:white;
+	font-size:13pt;
+	background-color:#2457BD;
+	border:1px solid white;
+	border-radius:10px;
+	text-decoration:none;
+	height:60px;
+	cursor:pointer;
+	
+}
+.wishbutton{
+	width:100%;
+	height:80px;
+	margin-top:15px;
+}
+.wishlist{
+	position:relative;
+	width:250px;
+	float:left;
+}
+/* wishlist 甕곌쑵�뱣 */
+#wish{
+	width:250px;
+	color:white;
+	font-size:12pt;
+	background-color:#2457BD;
+	border:1px solid white;
+	border-radius:10px;
+	text-decoration:none;
+	height:50px;
+	cursor:pointer;	
+}
+.price{
+	position:relative;
+	width:200px;
+	font-size:15pt;
+	float:right;
+	
+}
+#price2{
+	
+	font-size:24pt;
+	font-weight:bold;
+	
+	
+}
+#price2{
+	border:none;
+	font-size:24pt;
+	width:140px;
+	position:relative;
+	float:right;
+}
+.selectimg{
+	position:relative;
+	top:-100px;
+	float:left;
+	width:400px;
+	height:150px;
+}
+
+.selectimg img{
+	position:relative;
+	float:left;
+	width:100px;
+	height:100px;
+	border:1px solid #BDBDBD;
+}
+
+
+.otherimg1{
+	float:left;
+	width:100px;
+	height:100px;
+	cursor:pointer;
+}
+.otherimg1:hover{
+	opacity:0.7;
+
+}
+.otherimg2{
+	float:left;
+	width:100px;
+	height:100px;
+	cursor:pointer;
+}
+.otherimg2:hover{
+	opacity:0.7;
+
+}
+.otherimg3{
+	float:left;
+	width:100px;
+	height:100px;
+	cursor:pointer;
+}
+.otherimg3:hover{
+	opacity:0.7;
+
+}
+.otherimg4{
+	float:left;
+	width:100px;
+	height:100px;
+	cursor:pointer;
+}
+.otherimg4:hover{
+	opacity:0.7;
+
+}
+
+.otheritem{
+	position:relative;
+	width:480px;
+	height:600px;
+	float:left;
+	left:50px;
+}
+
+/*  占쎌젫占쎈�� �⑥쥙占� 獄쏉옙 占쎄퐬筌륅옙 占쎈뻻占쎌삂 css  */
+
+.botmenu{
+	margin:0 auto;
+	border:1px solid black;
+	border-left-width:0;
+	border-right-width:0;
+	width:1200px;
+	clear:both;
+}
+
+.botlist{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.botlist li{
+	width:100px;
+	height:50px;
+	text-align:center;
+	margin:0 auto;
+	padding:0 0 0 0;
+	border : 0;
+	float:left;
+	border-right:1px solid lightgray;
+	border-top:1px solid lightgray;
+	vertical-align:middle;
+	line-height:45px;
+	font-size:10pt;
+	cursor:pointer;
+}
+.botlist li:nth-child(1){
+	border-left:1px solid lightgray;
+}
+.botlist li:nth-child(5){
+	border:1px solid black;
+	border-bottom:1px solid white;
+}
+#bot{
+	margin:0 auto;
+	width:1200px;
+	height:51px;
+}
+.botTitle{
+	padding-left:30px;
+	width:960px;
+	height:51px;
+}
+.botinfo{
+	width:100%;
+}
+.listTitle{
+	width:100%;
+	position:relative;
+	top:30px;
+	height:60px;
+	font-family:筌띾쵐占� �⑥쥓逾�;
+}
+.listTitle span{
+	width:100px;
+	position:relative;
+	left:30px;
+	font-size:13pt;
+	
+}
+.contentheader{
+	width:100%;
+	position:relative;
+	height:60px;
+	top:20px;
+	border-bottom:1px solid #BDBDBD;
+}
+.contentheader span{
+	position:relative;
+	left:30px;
+}
+.contentheader select{
+	width:120px;
+	height:30px;
+	float:right;
+	position:relative;
+	right:50px;
+	border:1px solid #BDBDBD;
+	border-radius:8px;
+}
+
+.contentline{
+	width:100%;
+	position:relative;
+	top:30px;
+}
+.buttonarea{
+	float:right;
+	position:relative;
+	right:50px;
+}
+
+#reviewbutton{
+	width:180px;
+	height:35px;
+	border:none;
+	background-color:#2457BD;
+	color:white;
+	cursor:pointer;
+}
+
+.review_list{
+	position:relative;
+	width:1100px;
+	height:200px;
+	margin:0;
+	border-bottom:1px solid #BDBDBD;
+}
+
+.r1{
+	position:relative;
+	left:50px;
+	width:250px;
+	top:10px;
+	float:left;
+	
+}
+.r1 img{
+	width:150px;
+	height:30px;
+}
+.r2{
+	position:relative;
+	width:100px;
+	top:10px;
+	float:left;
+	font-size:10pt;
+}
+.r3{
+	position:relative;
+	width:100px;
+	top:10px;
+	float:left;
+	font-size:10pt;
+}
+.r4{
+	position:relative;
+	font-weight:600;
+	left:50px;
+	top:30px;
+	width:600px;
+	height:30px;
+	font-size:11pt;
+	clear:both;
+	
+}
+.r5{
+	position:relative;
+	left:50px;
+	font-size:10pt;
+	top:50px;
+	width:600px;
+	height:30px;
+}
+
+.page{
+	position:relative;
+	float:left;
+	left:400px;
+	top:20px;
+	text-align:center;
+	width:300px;
+	height:100px;
+}
+.rvPbutton:hover{
+	background-color:#2964D9;
+}
+.rvPbutton{
+	width:30px;
+	height:30px;
+	background-color:#2457BD;
+	border:none;
+	color:white;
+}

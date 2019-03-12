@@ -1,0 +1,572 @@
+@charset "UTF-8";
+
+body{
+	margin:0;
+	padding:0;
+	
+	background-image: url('../img/HomeFurnishing/wall.png');
+}
+#homefurnishing_body{
+	width:100%;
+	height:100%;
+}
+		#homefurnishing_logo{
+			width:1200px;
+			height:150px;
+			margin-left:auto;
+			margin-right:auto;
+			
+			text-align:center;
+		}
+				#homefurnishing_logo img{
+					position:relative;
+					top:50%;
+					margin-top:-25px;
+					cursor:pointer;
+				}
+		#homefurnishing_category{
+			width:1200px;
+			height:150px;
+			
+			margin-left:auto;
+			margin-right:auto;
+		}
+				#homefurnishing_IKEA{
+					width:400px;
+					height:100%;
+					margin:0;
+					float:left;
+					
+					text-align:center;
+				}
+				#homefurnishing_HOME{
+					width:400px;
+					height:100%;
+					margin:0;
+					float:left;
+					
+					text-align:center;
+				}
+				#homefurnishing_SOCIAL{
+					width:400px;
+					height:100%;
+					margin:0;
+					float:left;
+					
+					text-align:center;
+				}
+		#homefurnishing_menu{
+			width:1200px;
+			height:35px;
+			
+			color:white;
+			text-align:center;
+			margin-left:auto;
+			margin-right:auto;
+		}
+				#homefurnishing_menu div:nth-child(1){
+					position:relative;
+					width:125px;
+					height:30px;
+					border:2px solid white;
+					line-height:30px;
+					margin-right:10px;
+					float:right;
+					
+					cursor:pointer;
+				}
+				#homefurnishing_menu div:nth-child(2){
+					position:relative;
+					left:10px;
+					width:125px;
+					height:30px;
+					border:2px solid white;
+					line-height:30px;
+					float:left;
+				}
+				#homefurnishing_menu div:nth-child(3){
+					position:relative;
+					right:20px;
+					width:125px;
+					height:30px;
+					line-height:30px;
+					float:right;
+				}
+		#filterlist{
+			width:1200px;
+			margin:0 auto;
+			display:none;
+		}
+		#filterlist div{
+			float:right;
+			width:125px;
+		}
+				#filterlist ul{
+					position:absolute;
+					width:125px;
+					height: 300px;
+					padding:0;
+					margin-left:10px;
+					margin-top:0;
+					margin-right:5px;
+					margin-bottom:0;
+					
+					border:2px solid white;
+					z-index:5;
+					background:white;
+					overflow:auto;
+					float:right;
+				}
+						#filterlist ul li{
+							list-style:none;
+							width:100%;
+							height:38px;
+						
+							font-family:Malgun Gothic;
+							font-weight:600;
+							font-size:15px;
+							
+							line-height:38px;
+						}
+								#filterlist ul li:hover{
+									background:gray;
+								}
+		#homefurnishing_content{
+			width:1200px;
+			height:100%;
+			margin-left:auto;
+			margin-right:auto;
+		}
+				#homefurnishing_more{
+					height:150px;
+					
+					text-align:center;
+					clear:both;
+				}
+				#homefurnishing_more img{
+					cursor:pointer;
+					padding-top:30px;
+				}
+						#homefurnishing_content_0{
+							position:relative;
+							width:280px;
+							height:370px;
+						
+							float:left;
+							
+							margin-top:10px;
+							margin-bottom:10px;
+							margin-left:10px;
+							margin-right:10px;
+							
+							background:white;
+							background:rgba(0, 0, 0, 0.4);
+							
+							cursor:pointer;
+						}
+								#homefurnishing_content_1{
+									width:280px;
+									height:280px;
+									
+									background:white;
+								}
+										#homefurnishing_content_1_img{
+											position:relative;
+											top:10px;
+											width:260px;
+											height:260px;
+											background:black;
+											
+											margin:auto;
+										}
+												#homefurnishing_content_1_img img{
+													width:260px;
+													height:260px;
+												}
+								#homefurnishing_content_2{
+									widht:280px;
+									height:90px;
+								}
+										#homefurnishing_content_2_date{
+											color:white;
+											font-size:14px;
+											
+											margin:5px;
+											float:left;
+										}
+										#homefurnishing_content_2_like{
+											color:white;
+											font-size:14px;
+											
+											margin:5px;
+											float:right;
+										}
+										#homefurnishing_content_2_writer{
+											color:white;
+											font-size:14px;
+											
+											margin:5px;
+											clear:both;
+										}
+										#homefurnishing_content_2_content{
+											color:white;
+											font-size:12px;
+											
+											margin:5px;
+											margin-top:10px;
+											clear:both;
+										}
+										#homefurnishing_content_number{
+											display:none;
+										}
+										
+#homefurnishing_content_view_background{
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
+	background:rgba(0, 0, 0, 0.6);
+}										
+#homefurnishing_content_view{
+	width:1000px;
+	height:600px;
+}
+		#homefurnishing_content_view_exit{
+		width:840px;
+		height:60px;
+		
+		margin:0 auto;
+		}
+		#homefurnishing_content_view_exit button{
+		margin:0;
+		font-size:2.8em;
+		font-weight:bold;
+		color:white;
+		float:right;
+		
+		background:transparent;
+		}
+		#homefurnishing_content_view_back{
+			float:left;
+			width:80px;
+			height:540px;
+		}
+		#homefurnishing_content_view_back button{
+			font-size:7.8em;
+			font-weight:bold;
+			border:0;
+			background:transparent;
+			color:white;
+			margin:0 auto;
+			line-height:540px;
+			padding:0;
+			float:right;
+		}
+		#homefurnishing_content_view_0{
+			position:relative;
+			width:840px;
+			height:540px;
+			
+			margin-left:auto;
+			margin-right:auto;
+			
+			background:white;
+			float:left;
+		}
+		#homefurnishing_content_view_next{
+			float:left;
+			width:80px;
+			height:540px;
+		}
+		#homefurnishing_content_view_next button{
+			font-size:7.8em;
+			font-weight:bold;
+			border:0;
+			background:transparent;
+			color:white;
+			margin:0 auto;
+			line-height:540px;
+			padding:0;
+			float:left;
+		}
+				#homefurnishing_content_view_img{
+					width:540px;
+					height:540px;
+					float:left;
+				}
+						#homefurnishing_content_view_img img{
+							width:540px;
+							height:540px;
+						}
+				#homefurnishing_content_view_content{
+					width:300px;
+					height:540px;
+					float:left;
+				}
+						#homefurnishing_content_view_content_title{
+							height:50px;
+							line-height:50px;
+							font-size:1.2em;
+							font-weight:bold;
+							margin-left:10px;
+							float:left;
+						}
+						#homefurnishing_content_view_content_likeimg{
+							position:relative;
+							top:17px;
+							height:50px;
+							float:right;
+						}
+						#homefurnishing_content_view_content_like{
+							height:50px;
+							line-height:50px;
+							font-size:1.2em;
+							font-weight:bold;
+							
+							margin-right:10px;
+							float:right;
+						}
+						#homefurnishing_content_view_content_content{
+							position:relative;
+							top:50px;
+							left:10px;
+							width:280px;
+							height:180px;
+							
+							font-size:13px;
+							margin:0;
+							clear:both;
+						}
+						#homefurnishing_content_view_content_date{
+							position:relative;
+							top:50px;
+							left:10px;
+							height:50px;
+							
+							font-size:13px;
+							
+							float:left;
+						}
+						#homefurnishing_content_view_content_hashtag{
+							position:relative;
+							top:50px;
+							left:10px;
+							height:50px;
+							
+							font-size:14px;
+							font-weight:bold;
+							color:#ff780b;
+							
+							float:left;
+						}
+						#homefurnishing_content_view_content_smallimg{
+							position:relative;
+							top:50px;
+							left:10px;
+							width:280px;
+							height:54px;
+							clear:both;
+						}
+								#homefurnishing_content_view_content_smallimg img{
+									width:54px;
+									height:54px;
+								}
+						#homefurnishing_content_view_content_btn{
+							position:relative;
+							top:130px;
+							width:200px;
+							height:50px;
+						}
+						#homefurnishing_content_view_content_btn button{
+							position:relative;
+							left:10px;
+							width:280px;
+							height:60px;
+							
+							background:#ff780b;
+							
+							border:0;
+						}
+
+
+#homefurnishing_write{
+	width:600px;
+	height:900px;
+	
+	background:white;
+	display:none;
+}
+		#homefurnishing_write_title{
+			width:600px;
+			height:150px;
+			
+			background:#ff780b;
+			
+			text-align:center;
+		}
+		#homefurnishing_write_title p:nth-child(1){
+			position:relative;
+			top:40px;
+			font-size:1.7em;
+			font-weight:bold;
+			color:yellow;
+			margin:0;
+		}
+		#homefurnishing_write_title p:nth-child(2){
+			position:relative;
+			top:40px;
+			font-size:1.5em;
+			font-weight:bold;
+			color:white;
+			margin:0;
+		}
+#homefurnishing_write_category_0{
+	width:150px;
+	height:100px;
+	float:left;
+	
+	font-size:0.9em;
+	font-weight:bold;
+	text-align:center;
+	
+	margin-top:50px;
+}
+	#homefurnishing_write_category_1{
+		width:450px;
+		float:left;
+		
+		font-size:0.8em;
+		font-weight:bold;
+		
+		margin-top:50px;
+	}
+			#homefurnishing_write_category_1 p{
+				width:450px;
+				margin:0;
+			}
+			#homefurnishing_write_category_1 ul{
+				list-style:none;
+				width:150px;
+				height:38px;
+				
+				border: 1px #000 solid;
+				background:white;
+				
+				padding:0;
+				z-index:2;
+			}
+
+#homefurnishing_write_img_0{
+	width:150px;
+	height:200px;
+	clear:both;
+	float:left;
+	
+	font-size:0.9em;
+	font-weight:bold;
+	text-align:center;
+}
+	#homefurnishing_write_img_1{
+		width:450px;
+		float:left;
+		
+		font-size:0.8em;
+		font-weight:bold;
+	}
+			#homefurnishing_write_img_1 label{
+				border:1px solid black;
+			}
+			#write_img_ready{
+				width:84px;
+				height:84px;
+				background:#f1f1f1;
+			}
+			
+#homefurnishing_write_content_title_0{
+	width:150px;
+	height:100px;
+	clear:both;
+	float:left;
+	
+	font-size:0.9em;
+	font-weight:bold;
+	text-align:center;
+}
+	#homefurnishing_write_content_title_1{
+		width:450px;
+		float:left;
+		
+		font-size:0.8em;
+		font-weight:bold;
+	}
+	#homefurnishing_write_content_title_1 p{
+		width:450px;
+		
+		margin:0;
+	}
+	#homefurnishing_write_content_title_1 textarea{
+	}
+#homefurnishing_write_content_0{
+	width:150px;
+	height:200px;
+	clear:both;
+	float:left;
+	
+	font-size:0.9em;
+	font-weight:bold;
+	text-align:center;
+}
+	#homefurnishing_write_content_1{
+		width:450px;
+		float:left;
+		
+		font-size:0.8em;
+		font-weight:bold;
+	}
+	#homefurnishing_write_content_1 p{
+		width:450px;
+	}	
+	#homefurnishing_write_btn_0{
+		width:600px;
+		height:100px;
+		background:#f1f1f1;
+		clear:both;
+		
+		text-align:center;
+	}
+			#homefurnishing_write_btn_0 button{
+				position:relative;
+				top:25px;
+				width:150px;
+				height:50px;
+			}
+			#homefurnishing_write_btn_0 button:nth-child(1){
+				color:black;
+				font-size:1em;
+				font-weight:bold;
+				background:white;
+				border:1px solid #f1f1f1;
+			}
+			#homefurnishing_write_btn_0 button:nth-child(2){
+				color:white;
+				font-size:1em;
+				font-weight:bold;
+				background:#ff780b;
+				border:0px;
+			}
+		
+		
+#writeform{
+	display:none;
+}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

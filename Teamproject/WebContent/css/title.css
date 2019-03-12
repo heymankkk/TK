@@ -1,0 +1,889 @@
+#header {
+	position: relative;
+	width: 100%;
+	height: 100%%
+}
+
+/*
+경립 수정
+*/
+
+#whole {
+	position: relative;
+	top: 200px;
+	width: 1880px;
+	height: 3500px;
+}
+
+#mainheader {
+	position: absolute;
+	width: 1880px;
+	height: 300px;
+}
+
+#index {
+	position: absolute;
+	left: 400px;
+	width: 1000px;
+	height: 50px;
+}
+
+#title {
+	position: absolute;
+	width: 100%;
+	height: 130px;
+	top: 50px;
+	border-top: 1px solid #CFCFCF;
+	border-bottom: 1px solid #CFCFCF;
+	text-align: center;
+}
+
+#title p {
+	vertical-align: middle;
+	font-size: 28pt;
+}
+
+#search {
+	position: absolute;
+	top: 200px;
+	left: 400px;
+	width: 800px;
+	height: 50px;
+}
+
+#sarea {
+	position: absolute;
+	width: 800px;
+	height: 50px;
+	font-size: 10pt;
+}
+
+#minprice {
+	width: 125px;
+	height: 25px;
+}
+
+#maxprice {
+	width: 125px;
+	height: 25px;
+}
+
+#regitem{
+	width:200px;
+	position:absolute;
+	margin:0;
+	left:600px;
+}
+
+#regsofa{
+	border:none;
+	background-color:#2457BD;
+	color:white;
+	width:150px;
+	height:35px;
+	text-align:center;
+	cursor:pointer;
+}
+
+.filter {
+	background-color: #5D5D5D;
+	width: 58px;
+	height: 27px;
+	cursor: pointer;
+	color: white;
+	margin: 0;
+	border: none;
+}
+
+#colorfilter {
+	font-size: 10pt;
+	position: absolute;
+	left: 500px;
+	width: 50px;
+	height: 25px;
+}
+
+#orderby {
+	position: absolute;
+	left: 850px;
+	width: 200px;
+	height: 50px;
+}
+
+#by {
+	font-size: 9pt;
+	width: 200px;
+	height: 21px;
+	cursor: pointer;
+}
+
+#by select {
+	cursor: pointer;
+}
+
+#titleimg {
+	position: absolute;
+	top: 270px;
+	left: 400px;
+}
+
+#subtitle {
+	position: absolute;
+	top: 430px;
+	left: 420px;
+	width: 1000px;
+	text-align: center;
+}
+
+#subtitle p {
+	font-size: 14pt;
+	font-weight: 600;
+	margin: 0;
+}
+
+#content {
+	position: absolute;
+	top: 370px;
+	left: 400px;
+	width: 1200px;
+	height: 500px;
+}
+
+/* select안에 checkbox 상자들 생성*/
+#overSelect {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+#material1 {
+	position: absolute;
+	width: 240px;
+	height: 50px;
+	margin: 0;
+}
+
+#material1 select {
+	width: 100%;
+	height: 40px;
+}
+
+#material2 {
+	position: absolute;
+	left: 275px;
+	width: 240px;
+	height: 30px;
+	margin: 0;
+}
+
+#material2 select {
+	width: 100%;
+	height: 40px;
+}
+
+#material3 {
+	position: absolute;
+	left: 545px;
+	width: 240px;
+	height: 30px;
+	margin: 0;
+}
+
+#material3 select {
+	width: 100%;
+	height: 40px;
+}
+
+#material4 {
+	position: absolute;
+	left: 815px;
+	width: 240px;
+	height: 30px;
+	margin: 0;
+}
+
+#material4 select {
+	width: 100%;
+	height: 40px;
+}
+
+#matelist1 {
+	display: none;
+	position: absolute;
+	top: 40px;
+	width: 238px;
+	height: 150px;
+	border: 1px solid #dadada;
+	z-index: 1;
+	background-color: white;
+}
+
+#matelist1 label {
+	display: block;
+}
+
+#matelist1 label:hover {
+	background-color: #D5D5D5;
+}
+
+#matelist2 {
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: 275px;
+	width: 238px;
+	height: 150px;
+	border: 1px solid #dadada;
+	z-index: 1;
+	background-color: white;
+}
+
+#matelist2 label {
+	display: block;
+}
+
+#matelist2 label:hover {
+	background-color: #D5D5D5;
+}
+
+#matelist3 {
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: 545px;
+	width: 238px;
+	height: 200px;
+	border: 1px solid #dadada;
+	z-index: 1;
+	background-color: white;
+}
+
+#matelist3 label {
+	display: block;
+}
+
+#matelist3 label:hover {
+	background-color: #D5D5D5;
+}
+
+#matelist4 {
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: 815px;
+	width: 238px;
+	height: 290px;
+	border: 1px solid #dadada;
+	z-index: 1;
+	background-color: white;
+}
+
+#matelist4 label {
+	display: block;
+}
+
+#matelist4 label:hover {
+	background-color: #D5D5D5;
+}
+
+#Kimg {
+	position: absolute;
+	top: 150px;
+	width: 1200px;
+}
+/* mouseover했을때 나타나는 Button을 id값으로 위치,크기조절*/
+#buy {
+	color: white;
+	background-color: #2457BD;
+	border: 1px solid white;
+	border-radius: 10px;
+	text-decoration: none;
+	width: 200px;
+	height: 60px;
+	cursor: pointer;
+	margin-left: 15px;
+	z-index: 9999;
+}
+
+#addwish {
+	color: white;
+	background-color: #2457BD;
+	border: 1px solid white;
+	border-radius: 10px;
+	text-decoration: none;
+	width: 200px;
+	height: 60px;
+	cursor: pointer;
+	margin-top: 5px;
+	margin-left: 15px;
+	z-index: 9999;
+}
+/* mouseover했을때 나타나는 Button을 id값으로 위치,크기조절 완료*/
+#KKimg0 img {
+	width: 250px;
+	height: 250px;
+}
+
+#KKimg1 img {
+	width: 250px;
+	height: 250px;
+}
+
+#KKimg2 img {
+	width: 250px;
+	height: 250px;
+}
+
+#KKimg3 img {
+	width: 250px;
+	height: 250px;
+}
+
+#KKimg4 img {
+	width: 250px;
+	height: 250px;
+}
+
+#KKimg5 img {
+	width: 250px;
+	height: 250px;
+}
+
+#KKimg6 img {
+	width: 250px;
+	height: 250px;
+}
+
+#KKimg7 img {
+	width: 250px;
+	height: 250px;
+}
+
+#KKimg8 img {
+	width: 250px;
+	height: 250px;
+}
+
+#KKimg9 img {
+	width: 250px;
+	height: 250px;
+}
+
+#KKimg10 img {
+	width: 250px;
+	height: 250px;
+}
+
+#KKimg11 img {
+	width: 250px;
+	height: 250px;
+}
+
+#KKimg12 img {
+	width: 250px;
+	height: 250px;
+}
+
+#KKimg13 img {
+	width: 250px;
+	height: 250px;
+}
+
+#KKimg14 img {
+	width: 250px;
+	height: 250px;
+}
+
+#KKimg15 img {
+	width: 250px;
+	height: 250px;
+}
+
+#KKimg16 img {
+	width: 250px;
+	height: 250px;
+}
+
+#KKimg17 img {
+	width: 250px;
+	height: 250px;
+}
+
+#KKimg18 img {
+	width: 250px;
+	height: 250px;
+}
+
+#KKimg19 img {
+	width: 250px;
+	height: 250px;
+}
+
+#KKimg20 img {
+	width: 250px;
+	height: 250px;
+}
+
+#KKimg21 img {
+	width: 250px;
+	height: 250px;
+}
+
+#KKimg22 img {
+	width: 250px;
+	height: 250px;
+}
+
+#KKimg23 img {
+	width: 250px;
+	height: 250px;
+}
+
+#KKimg0 {
+	position: absolute;
+	text-align: center;
+	left: 30px;
+	top: 1px;
+	width: 250px;
+	height: 500px;
+	background-color: white;
+	margin: 0;
+	margin-right: 14px;
+	z-index: 9999;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0px 0px 25px gray;
+}
+
+#KKimg1 {
+	position: absolute;
+	text-align: center;
+	top: 1px;
+	left: 310px;
+	width: 250px;
+	height: 500px;
+	background-color: white;
+	margin: 0;
+	margin-right: 14px;
+	z-index: 5;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0px 0px 25px gray;
+}
+
+#KKimg2 {
+	position: absolute;
+	text-align: center;
+	top: 1px;
+	left: 590px;
+	width: 250px;
+	height: 500px;
+	background-color: white;
+	margin: 0;
+	margin-right: 15px;
+	z-index: 5;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0px 0px 25px gray;
+}
+
+#KKimg3 {
+	position: absolute;
+	text-align: center;
+	top: 1px;
+	left: 870px;
+	width: 250px;
+	height: 500px;
+	background-color: white;
+	margin: 0;
+	margin-right: 15px;
+	z-index: 5;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0px 0px 25px gray;
+}
+
+#KKimg4 {
+	position: absolute;
+	text-align: center;
+	top: 450px;
+	left: 30px;
+	width: 250px;
+	height: 500px;
+	background-color: white;
+	margin: 0;
+	margin-right: 15px;
+	z-index: 5;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0px 0px 25px gray;
+}
+
+#KKimg5 {
+	position: absolute;
+	text-align: center;
+	top: 450px;
+	left: 310px;
+	width: 250px;
+	height: 500px;
+	background-color: white;
+	margin: 0;
+	margin-right: 15px;
+	z-index: 5;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0px 0px 25px gray;
+}
+
+#KKimg6 {
+	position: absolute;
+	text-align: center;
+	top: 450px;
+	left: 590px;
+	width: 250px;
+	height: 500px;
+	background-color: white;
+	margin: 0;
+	margin-right: 15px;
+	z-index: 5;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0px 0px 25px gray;
+}
+
+#KKimg7 {
+	position: absolute;
+	text-align: center;
+	top: 450px;
+	left: 870px;
+	width: 250px;
+	height: 500px;
+	background-color: white;
+	margin: 0;
+	margin-right: 15px;
+	z-index: 5;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0px 0px 25px gray;
+}
+
+#KKimg8 {
+	position: absolute;
+	text-align: center;
+	top: 900px;
+	left: 30px;
+	width: 250px;
+	height: 500px;
+	background-color: white;
+	margin: 0;
+	margin-right: 15px;
+	z-index: 5;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0px 0px 25px gray;
+}
+
+#KKimg9 {
+	position: absolute;
+	text-align: center;
+	top: 900px;
+	left: 310px;
+	width: 250px;
+	height: 500px;
+	background-color: white;
+	margin: 0;
+	margin-right: 15px;
+	z-index: 5;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0px 0px 25px gray;
+}
+
+#KKimg10 {
+	position: absolute;
+	text-align: center;
+	top: 900px;
+	left: 590px;
+	width: 250px;
+	height: 500px;
+	background-color: white;
+	margin: 0;
+	margin-right: 15px;
+	z-index: 5;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0px 0px 25px gray;
+}
+
+#KKimg11 {
+	position: absolute;
+	text-align: center;
+	top: 900px;
+	left: 870px;
+	width: 250px;
+	height: 500px;
+	background-color: white;
+	margin: 0;
+	margin-right: 15px;
+	z-index: 5;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0px 0px 25px gray;
+}
+
+#KKimg12 {
+	position: absolute;
+	text-align: center;
+	top: 1380px;
+	left: 30px;
+	width: 250px;
+	height: 550px;
+	background-color: white;
+	margin: 0;
+	margin-right: 15px;
+	z-index: 5;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0px 0px 25px gray;
+}
+
+#KKimg13 {
+	position: absolute;
+	text-align: center;
+	top: 1380px;
+	left: 310px;
+	width: 250px;
+	height: 550px;
+	background-color: white;
+	margin: 0;
+	margin-right: 15px;
+	z-index: 5;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0px 0px 25px gray;
+}
+
+#KKimg14 {
+	position: absolute;
+	text-align: center;
+	top: 1380px;
+	left: 590px;
+	width: 250px;
+	height: 550px;
+	background-color: white;
+	margin: 0;
+	margin-right: 15px;
+	z-index: 5;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0px 0px 25px gray;
+}
+
+#KKimg15 {
+	position: absolute;
+	text-align: center;
+	top: 1380px;
+	left: 870px;
+	width: 250px;
+	height: 550px;
+	background-color: white;
+	margin: 0;
+	margin-right: 15px;
+	z-index: 5;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0px 0px 25px gray;
+}
+
+#KKimg16 {
+	position: absolute;
+	text-align: center;
+	top: 1840px;
+	left: 30px;
+	width: 250px;
+	height: 550px;
+	background-color: white;
+	margin: 0;
+	margin-right: 15px;
+	z-index: 5;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0px 0px 25px gray;
+}
+
+#KKimg17 {
+	position: absolute;
+	text-align: center;
+	top: 1840px;
+	left: 310px;
+	width: 250px;
+	height: 550px;
+	background-color: white;
+	margin: 0;
+	margin-right: 15px;
+	z-index: 5;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0px 0px 25px gray;
+}
+
+#KKimg18 {
+	position: absolute;
+	text-align: center;
+	top: 1840px;
+	left: 590px;
+	width: 250px;
+	height: 550px;
+	background-color: white;
+	margin: 0;
+	margin-right: 15px;
+	z-index: 5;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0px 0px 25px gray;
+}
+
+#KKimg19 {
+	position: absolute;
+	text-align: center;
+	top: 1840px;
+	left: 870px;
+	width: 250px;
+	height: 550px;
+	background-color: white;
+	margin: 0;
+	margin-right: 15px;
+	z-index: 5;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0px 0px 25px gray;
+}
+
+#KKimg20 {
+	position: absolute;
+	text-align: center;
+	top: 2300px;
+	left: 30px;
+	width: 250px;
+	height: 550px;
+	background-color: white;
+	margin: 0;
+	margin-right: 15px;
+	z-index: 5;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0px 0px 25px gray;
+}
+
+#KKimg21 {
+	position: absolute;
+	text-align: center;
+	top: 2300px;
+	left: 310px;
+	width: 250px;
+	height: 550px;
+	background-color: white;
+	margin: 0;
+	margin-right: 15px;
+	z-index: 5;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0px 0px 25px gray;
+}
+
+#KKimg22 {
+	position: absolute;
+	text-align: center;
+	top: 2300px;
+	left: 590px;
+	width: 250px;
+	height: 550px;
+	background-color: white;
+	margin: 0;
+	margin-right: 15px;
+	z-index: 5;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0px 0px 25px gray;
+}
+
+#KKimg23 {
+	position: absolute;
+	text-align: center;
+	top: 2300px;
+	left: 870px;
+	width: 250.5px;
+	height: 550px;
+	background-color: white;
+	margin: 0;
+	margin-right: 15px;
+	z-index: 5;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0px 0px 25px gray;
+}
+
+#Qimg {
+	position: relative;
+	width: 250px;
+	height: 460px;
+	margin-left: 30px;
+	font-family: Times New Roman;
+	float: left;
+}
+
+#Qimg img {
+	width: 250px;
+	height: 250px;
+}
+
+#p1 {
+	height: 25px;
+	position: relative;
+	font-size: 13pt;
+}
+
+#p2 {
+	font-family: Verdana;
+	height: 25px;
+	position: relative;
+	font-size: 11pt;
+}
+
+#p3 {
+	height: 25px;
+	position: relative;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+#p4 {
+	position: relative;
+	height: 25px;
+	font-size: 9pt;
+}
+
+#p5 {
+	position: relative;
+	height: 30px;
+	font-size: 10pt;
+}
+
+#page {
+	display: block;
+	text-align: center;
+	position: relative;
+	font-size: 14pt;
+	clear: both;
+}
+
+.Pbutton{
+	width:30px;
+	height:30px;
+	background-color:#2457BD;
+	border:none;
+	cursor:pointer;
+	color:white;
+}

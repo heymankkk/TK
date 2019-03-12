@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+body{
+	margin:0 auto;	
+}
+#loginfooter{
+	position:relative;
+	top:250px;
+	margin:0 auto;
+	z-index:-5;
+}
+#zindex{
+	width:1600px;
+	height:100%;
+	margin:0 auto;
+}
+#all{
+	padding-top:15px;
+	padding-left:15px;
+	padding-right:15px; 
+	border:1px solid black;
+	border-color:#D5D5D5;
+	height:786px;
+	width:500px;
+	margin:0 auto;
+	position:relative;
+	top:240px;
+	background-color:#F5F6F7;
+}
+
+#high{
+	position:relative;
+	bottom:90px;
+	right:15px;
+}
+
+#high div{
+	margin-bottom:-10px;
+}
+
+#pf{
+	font-size:20px;
+	padding-top:10px;
+	position:relative;
+	top:10px;
+}
+
+#top{
+	font-size:16px;
+	font-weight:bold;
+	position:relative;
+	bottom:50px;
+}
+
+#chinese{
+	font-size:5px;
+	font-style:oblique;
+	color:#747474;
+	position:relative;
+	bottom:40px;
+}
+
+#PI{
+	text-align:right;
+	border-collapse: separate;
+    border-spacing: 0 10px;
+    position:relative;
+	bottom:40px;
+	font-size:11px;
+}
+
+a{
+	text-decoration:none;
+	color:#6799FF;
+}
+ 
+hr{
+	width:95%;
+	position:relative;
+	bottom:40px;
+}	
+
+#main1{
+	font-size:9px;
+	text-align:center;
+	position:relative;
+	bottom:40px;
+	left:160px;
+	text-align:left;
+}
+
+#main1 input{
+	position:relative;
+	left:78px;
+}
+
+#main1text{
+	position:relative;
+	right:40px;
+}
+
+#all_check1{
+	position:relative;
+	right:128px;
+}
+
+#all_check2{
+	position:relative;
+	right:40px;
+}
+
+#main2{
+	font-size:5px;
+	position:relative;
+	bottom:40px;
+	left:110px;	
+}
+
+#main2text{
+	position:relative;
+	left:20px;
+}
+
+label{
+	position: relative;
+    right: 128px;
+}
+
+#PI input{
+	width:175px;
+}
+
+#pswidth{
+	width:200px;
+	position:relative;
+	left:120px;
+}
+
+#selectposition{
+	height:40px;
+}
+
+.aaa{
+	display:inline-block;
+	position:relative;
+	top:3px;
+	right:83px;	
+}
+
+.aaa>input{
+	width:20px;
+}
+
+#tdlabel{
+	font-size:3px;
+	position:relative;
+	left:135px;
+	text-align:left;
+}
+
+#button{
+	 position:relative;
+	 left:345px;
+	 bottom:40px;
+}
+
+#htb{
+	position:relative;
+	left: 6px;
+}
+
+#aa{
+	position:relative;
+	left:23px;	
+}
+
+#bb{
+	position:relative;
+	left:23px;	
+}
